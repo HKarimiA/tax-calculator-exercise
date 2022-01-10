@@ -27,10 +27,12 @@ double Item::netPrice() const
 
 double Item::grossPrice() const
 {
-	return 0.0;
+	return _netPrice + roundUp(_netPrice * _taxInPercent / 100);
 }
 
 double Item::roundUp(double number) const
 {
-	return 0.0;
+	int decimal = static_cast<int>(number * 100) % 100;
+	decimal += (decimal % 5 == 0) ? 0 : 5 - (decimal % 5);
+	return static_cast<int>(number) + static_cast<double>(decimal) / 100;
 }
