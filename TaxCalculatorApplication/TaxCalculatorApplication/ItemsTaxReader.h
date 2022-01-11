@@ -1,5 +1,5 @@
 #pragma once
-#include "Item.h"
+#include <string_view>
 
 class ItemsTaxReader
 {
