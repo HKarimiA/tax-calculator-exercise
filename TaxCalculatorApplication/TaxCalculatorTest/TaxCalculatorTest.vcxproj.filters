@@ -24,5 +24,8 @@
     <ClCompile Include="ItemsTaxFileReaderTest.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="ShoppingBasketFromTextReaderTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
