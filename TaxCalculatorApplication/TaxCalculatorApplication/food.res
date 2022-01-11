@@ -1,0 +1,13 @@
+chocolate
+milk
+eggs
+cheese
+yogurt
+honey
+vinegar
+sugar
+pasta
+rice
+bread
+salt
+pepper
