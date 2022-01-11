@@ -19,5 +19,12 @@ double ItemsTaxFileReader::evaluateTaxOfItem(std::string_view itemName, bool imp
 
 bool ItemsTaxFileReader::isTaxExempt(std::string_view itemName) const
 {
+	for (const std::string& resourcePath : _itemsTaxFilePaths)
+	{
+		if (const auto& taxlessItems = LocalFileReader(resourcePath).getLines())
+			for (const std::string& taxlessItem : *taxlessItems)
+				if (itemName.find(taxlessItem) != std::string::npos)  // case-sensitive
+					return true;
+	}
 	return false;
 }

@@ -15,7 +15,7 @@ namespace TaxCalculatorTest
 			Assert::AreEqual(r1.getLines().has_value(), true);
 			Assert::AreEqual(r1.getLines().value().at(0), std::string("book"));
 			LocalFileReader r2("unknown.txt");
-			Assert::AreEqual(r2.getLines().has_value(), false);
+			Assert::AreEqual(r2.getLines().has_value(), false);		
 		}
 	};
 }

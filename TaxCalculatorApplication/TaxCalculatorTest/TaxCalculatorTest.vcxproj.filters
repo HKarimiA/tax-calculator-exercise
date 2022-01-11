@@ -21,5 +21,8 @@
     <ClCompile Include="LocalFileReaderTest.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="ItemsTaxFileReaderTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
