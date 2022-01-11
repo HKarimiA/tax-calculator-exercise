@@ -126,6 +126,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemsTaxFileReader.cpp" />
     <ClCompile Include="ItemsTaxReader.cpp" />
     <ClCompile Include="LocalFileReader.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -133,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemsTaxFileReader.h" />
     <ClInclude Include="ItemsTaxReader.h" />
     <ClInclude Include="LocalFileReader.h" />
     <ClInclude Include="ShoppingBasketReader.h" />
