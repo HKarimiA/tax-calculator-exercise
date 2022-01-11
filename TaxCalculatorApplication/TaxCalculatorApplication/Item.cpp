@@ -30,6 +30,7 @@ double Item::grossPrice() const
 	return _netPrice + roundUp(_netPrice * _taxInPercent / 100);
 }
 
+// rounded up to the nearest 0.05
 double Item::roundUp(double number) const
 {
 	int decimal = static_cast<int>(number * 100) % 100;
