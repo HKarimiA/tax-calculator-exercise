@@ -10,7 +10,7 @@ using pItemsTaxReader = std::unique_ptr<ItemsTaxReader>;
 class ShoppingBasketReader
 {
 public:
-	ShoppingBasketReader(pItemsTaxReader& itemsTaxReader);
+	ShoppingBasketReader(pItemsTaxReader& taxReader);
 	virtual ~ShoppingBasketReader() = default;
 	virtual std::optional<ShoppingBasket> readShoppingBasket() const = 0;
 	virtual std::string getShoppingBasketName() const = 0;

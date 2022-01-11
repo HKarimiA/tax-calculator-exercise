@@ -1,5 +1,5 @@
 #include "ShoppingBasketReader.h"
 
-ShoppingBasketReader::ShoppingBasketReader(pItemsTaxReader& itemsTaxReader) : _itemsTaxReader{ std::move(itemsTaxReader) }
+ShoppingBasketReader::ShoppingBasketReader(pItemsTaxReader& taxReader) : _itemsTaxReader{ std::move(taxReader) }
 {
 }
