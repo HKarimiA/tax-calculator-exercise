@@ -10,7 +10,7 @@ void TaxCalculatorConsolePrinter::printReceipt(const ShoppingBasket& shoppingBas
 	double total = 0;
 	for (const Item& item : shoppingBasket)
 	{
-		cout << item.amount() << (item.imported() ? " imported " : " ") << item.name() << ": " << item.grossPrice() << endl;
+		cout << item.amount() << (item.imported() ? " imported " : " ") << item.name() << ": " << item.amount() * item.grossPrice() << endl;
 		salesTaxes += item.amount() * (item.grossPrice() - item.netPrice());
 		total += item.amount() * item.grossPrice();
 	}
