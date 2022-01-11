@@ -130,6 +130,7 @@
     <ClCompile Include="ItemsTaxReader.cpp" />
     <ClCompile Include="LocalFileReader.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ShoppingBasketFromTextReader.cpp" />
     <ClCompile Include="ShoppingBasketReader.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +138,7 @@
     <ClInclude Include="ItemsTaxFileReader.h" />
     <ClInclude Include="ItemsTaxReader.h" />
     <ClInclude Include="LocalFileReader.h" />
+    <ClInclude Include="ShoppingBasketFromTextReader.h" />
     <ClInclude Include="ShoppingBasketReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
