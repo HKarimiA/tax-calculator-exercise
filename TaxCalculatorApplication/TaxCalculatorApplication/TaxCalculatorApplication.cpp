@@ -7,5 +7,8 @@ TaxCalculatorApplication::TaxCalculatorApplication(unique_ptr<ShoppingBasketRead
 
 void TaxCalculatorApplication::run() const
 {
-
+	if (auto items = _reader->readShoppingBasket())
+		_printer->printReceipt(*items);
+	else
+		_printer->printError("The source " + _reader->getShoppingBasketName() + " is not a valid shopping basket :(");
 }
