@@ -1,6 +1,7 @@
 #pragma once
 #include "ShoppingBasketReader.h"
 
+// this class reads a shopping basket from a text file in a specific format
 class ShoppingBasketFromTextReader : public ShoppingBasketReader
 {
 public:
