@@ -45,3 +45,8 @@ Output 3: <br>
 1 imported box of chocolates: 11.85 <br>
 Sales Taxes: 6.70 <br>
 Total: 74.68
+
+
+## Solution:
+
+![not found!](tax-calculator-application_uml.png "tax-calculator-application_uml")
