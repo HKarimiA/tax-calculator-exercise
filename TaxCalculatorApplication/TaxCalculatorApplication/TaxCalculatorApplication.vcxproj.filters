@@ -27,6 +27,9 @@
     <ClCompile Include="ItemsTaxReader.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="LocalFileReader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ShoppingBasketReader.h">
@@ -36,6 +39,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="ItemsTaxReader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalFileReader.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
