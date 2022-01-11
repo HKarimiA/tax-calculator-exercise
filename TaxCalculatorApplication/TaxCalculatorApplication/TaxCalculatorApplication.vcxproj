@@ -132,6 +132,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="ShoppingBasketFromTextReader.cpp" />
     <ClCompile Include="ShoppingBasketReader.cpp" />
+    <ClCompile Include="TaxCalculatorApplication.cpp" />
     <ClCompile Include="TaxCalculatorConsolePrinter.cpp" />
     <ClCompile Include="TaxCalculatorPrinter.cpp" />
   </ItemGroup>
@@ -142,6 +143,7 @@
     <ClInclude Include="LocalFileReader.h" />
     <ClInclude Include="ShoppingBasketFromTextReader.h" />
     <ClInclude Include="ShoppingBasketReader.h" />
+    <ClInclude Include="TaxCalculatorApplication.h" />
     <ClInclude Include="TaxCalculatorConsolePrinter.h" />
     <ClInclude Include="TaxCalculatorPrinter.h" />
   </ItemGroup>
