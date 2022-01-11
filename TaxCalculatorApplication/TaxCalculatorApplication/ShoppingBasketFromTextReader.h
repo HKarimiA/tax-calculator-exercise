@@ -9,5 +9,7 @@ public:
 	std::string getShoppingBasketName() const override;
 
 private:
+	std::optional<Item>parseTextToItem(std::string_view text) const;
+
 	const std::string _textFilePath;
 };

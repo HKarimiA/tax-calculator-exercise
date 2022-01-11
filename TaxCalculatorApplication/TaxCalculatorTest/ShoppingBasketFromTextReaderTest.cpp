@@ -21,7 +21,8 @@ namespace TaxCalculatorTest
 			ShoppingBasket items{ Item(1, "book", false, 12.49, 0.0),
 								  Item(1, "music CD", false, 14.99, 10.0),
 								  Item(1, "chocolate bar", false, 0.85, 0.0) };
-			std::unique_ptr<ItemsTaxReader> itemsTaxFileReader = std::make_unique<ItemsTaxFileReader>();
+			std::unique_ptr<ItemsTaxReader> itemsTaxFileReader = std::make_unique<ItemsTaxFileReader>(std::vector<std::string>
+			{ "../TaxCalculatorApplication/book.res", "../TaxCalculatorApplication/food.res", "../TaxCalculatorApplication/medical.res" });
 			ShoppingBasketFromTextReader s(itemsTaxFileReader, "../TaxCalculatorApplication/input1.txt");
 			for (size_t i = 0; i < 3; ++i)
 			{
