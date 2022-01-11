@@ -4,6 +4,7 @@
 
 using ShoppingBasket = std::vector<Item>;
 
+// interface for printing receipts and errors
 class TaxCalculatorPrinter
 {
 public:
