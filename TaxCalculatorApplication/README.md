@@ -1,4 +1,4 @@
-1. Be sure you use **x86** to build.
+1. Be sure you use **x86 (Win32)** to build.
 2. Select **C++17** language standard for both projects (if is not selected): go to Project menu > Properties, then open Configuration Properties > C/C++ > Language. From there, you can set the C++ Language **ISO C++17 Standard**.
 3. 
 	- If you are not interested in test-project, just unload the project "TaxCalculatorTest".
