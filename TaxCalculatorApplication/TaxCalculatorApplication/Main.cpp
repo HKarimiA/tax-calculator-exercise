@@ -1,5 +1,5 @@
-// Be sure you use x86 to build
-// This project needs the C++17 language standard (or higher)
+// NOTE: Be sure you use x86 (Win32) to build
+// NOTE: This project needs the C++17 language standard (or higher)
 
 #include "ItemsTaxFileReader.h"
 #include "ShoppingBasketFromTextReader.h"

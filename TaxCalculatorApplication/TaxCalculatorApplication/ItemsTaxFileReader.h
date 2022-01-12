@@ -2,7 +2,7 @@
 #include "ItemsTaxReader.h"
 #include <vector>
 
-// this class evaluates tax of items on the basis of source files for non-taxable items
+// NOTE: This class evaluates tax of items on the basis of source files for non-taxable items
 class ItemsTaxFileReader : public ItemsTaxReader
 {
 public:

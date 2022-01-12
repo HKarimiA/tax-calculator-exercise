@@ -3,6 +3,7 @@
 #include <vector>
 #include <optional>
 
+// NOTE: This class reads a local text file
 class LocalFileReader
 {
 public:

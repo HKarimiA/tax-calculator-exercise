@@ -7,7 +7,7 @@
 using ShoppingBasket = std::vector<Item>;
 using pItemsTaxReader = std::unique_ptr<ItemsTaxReader>;
 
-// interface for reading a shopping basket
+// NOTE: Interface for reading a shopping basket
 class ShoppingBasketReader
 {
 public:

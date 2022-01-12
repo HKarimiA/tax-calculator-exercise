@@ -4,6 +4,7 @@
 
 using std::unique_ptr;
 
+// NOTE: This class reads a shopping basket and prints receipts or errors (Manager)
 class TaxCalculatorApplication
 {
 public:

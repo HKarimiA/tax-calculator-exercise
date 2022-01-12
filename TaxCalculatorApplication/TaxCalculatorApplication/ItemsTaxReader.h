@@ -1,7 +1,7 @@
 #pragma once
 #include <string_view>
 
-// interface for evaluating tax of items
+// NOTE: Interface for evaluating tax of items
 class ItemsTaxReader
 {
 public:

@@ -1,6 +1,7 @@
 #pragma once
 #include <string_view>
 
+// NOTE: This class represents an item inside a shopping basket, e.g.a book, a bread
 class Item
 {
 public:

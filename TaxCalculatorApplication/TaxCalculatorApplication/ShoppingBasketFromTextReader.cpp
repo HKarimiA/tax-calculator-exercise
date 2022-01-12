@@ -30,7 +30,7 @@ std::string ShoppingBasketFromTextReader::getShoppingBasketName() const
 	return _textFilePath;
 }
 
-// text with this format: "amount" (optional: imported) "name" at "price"
+// NOTE: text with this format: "amount" (optional: imported) "name" at "price"
 // for example: "1 imported bottle of perfume at 27.99" or "1 bottle of imported perfume at 27.99" or "1 bottle of perfume at 27.99"
 std::optional<Item> ShoppingBasketFromTextReader::parseTextToItem(std::string_view text) const
 {

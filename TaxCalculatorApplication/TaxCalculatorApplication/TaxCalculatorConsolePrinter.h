@@ -1,6 +1,7 @@
 #pragma once
 #include "TaxCalculatorPrinter.h"
 
+// NOTE: This class prints receipts and errors to console
 class TaxCalculatorConsolePrinter : public TaxCalculatorPrinter
 {
 public:
